@@ -9,14 +9,22 @@ h1{
 
 h2{
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p{
     color: dimgray;
     text-align: justify;
+    margin-right: 25px;
 }
 
-.name-highlite{
+
+.orange-highlite{
     color: orange;
 }
 .half-width{
@@ -29,13 +37,14 @@ p{
     width: 100%;
 }
 
-.top-banar{
-    background-image: url("Images/top-banner.png");
-    background-repeat: no-repeat;
+section{
+    height: 500px;
+    margin-bottom: 150px;
 }
 
-section{
-    height: 100px;
+.top-banar{
+    background-image: url("Images/top-banner.png");
+   background-repeat: no-repeat;
 }
 
 .link-button{
@@ -46,3 +55,42 @@ section{
     color: white;
     font-weight: 700;
 }
+
+a:hover{
+    color: purple;
+}
+
+.dream-area{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.singale-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.experience-area{
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1%;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospaceborder-left: 7px solid;
+   }
